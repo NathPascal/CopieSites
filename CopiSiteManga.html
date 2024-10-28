@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CopieSiteMange.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mangas</title>
+</head>
+
+<body>
+    <!-- ICI C'EST LE HEADER ! -->
+    <header class="Navbar PublicNavbar">
+        <div class="side">
+            <a href="/"><svg fill="none" class="logo" alt="Mangas.io" viewBox="0 0 136 16">
+                    <title>Mangas.io</title>
+                    <path
+                        d="M13.74 15l-.02-9.28-4.6 7.68H7.96l-4.6-7.56V15H.88V1h2.14l5.56 9.28L14.04 1h2.14l.02 14h-2.46zm17.482-3.24h-7L22.842 15h-2.68l6.3-14h2.56l6.32 14h-2.72l-1.4-3.24zm-.86-2.04l-2.64-6.12-2.62 6.12h5.26zM51.722 1v14h-2.14l-7.72-9.48V15h-2.58V1h2.14l7.72 9.48V1h2.58zm15.471 6.84h2.46v5.58a7.823 7.823 0 01-2.52 1.32c-.96.307-1.946.46-2.96.46-1.426 0-2.713-.307-3.86-.92a6.983 6.983 0 01-2.7-2.58c-.653-1.093-.98-2.327-.98-3.7 0-1.373.327-2.607.98-3.7a6.84 6.84 0 012.7-2.56c1.16-.627 2.46-.94 3.9-.94 1.174 0 2.24.193 3.2.58a6.28 6.28 0 012.42 1.7l-1.64 1.6c-1.066-1.067-2.353-1.6-3.86-1.6-.986 0-1.866.207-2.64.62-.76.413-1.36.993-1.8 1.74-.426.747-.64 1.6-.64 2.56 0 .933.214 1.773.64 2.52a4.753 4.753 0 001.8 1.76c.774.427 1.647.64 2.62.64 1.094 0 2.054-.24 2.88-.72V7.84zm17.13 3.92h-7L75.943 15h-2.68l6.3-14h2.56l6.32 14h-2.72l-1.4-3.24zm-.86-2.04l-2.64-6.12-2.62 6.12h5.26zm13.26 5.48a10.78 10.78 0 01-3.14-.46c-1-.307-1.793-.713-2.38-1.22l.9-2.02c.574.453 1.273.827 2.1 1.12.84.28 1.68.42 2.52.42 1.04 0 1.814-.167 2.32-.5.52-.333.78-.773.78-1.32 0-.4-.146-.727-.44-.98-.28-.267-.64-.473-1.08-.62a24.3 24.3 0 00-1.8-.5c-1.067-.253-1.933-.507-2.6-.76a4.402 4.402 0 01-1.7-1.18c-.466-.547-.7-1.28-.7-2.2 0-.773.207-1.473.62-2.1.427-.64 1.06-1.147 1.9-1.52.853-.373 1.894-.56 3.12-.56.853 0 1.694.107 2.52.32.827.213 1.54.52 2.14.92l-.82 2.02a8.083 8.083 0 00-1.92-.82 7.181 7.181 0 00-1.94-.28c-1.026 0-1.793.173-2.3.52-.493.347-.74.807-.74 1.38 0 .4.14.727.42.98.293.253.66.453 1.1.6a24.3 24.3 0 001.8.5c1.04.24 1.893.493 2.56.76a4.214 4.214 0 011.7 1.18c.48.533.72 1.253.72 2.16 0 .773-.213 1.473-.64 2.1-.413.627-1.047 1.127-1.9 1.5s-1.893.56-3.12.56z">
+                    </path>
+                    <path
+                        d="M107.241 15.08a.86.86 0 01-.6-.24.883.883 0 01-.24-.62c0-.24.08-.44.24-.6a.86.86 0 01.6-.24c.227 0 .42.08.58.24.174.16.26.36.26.6s-.086.447-.26.62a.79.79 0 01-.58.24zM113.845 1h1.02v14h-1.02V1zm13.999 14.1c-1.374 0-2.614-.307-3.72-.92a6.997 6.997 0 01-2.62-2.56c-.627-1.08-.94-2.287-.94-3.62 0-1.333.313-2.54.94-3.62a6.848 6.848 0 012.62-2.54c1.106-.627 2.346-.94 3.72-.94 1.373 0 2.613.307 3.72.92a6.713 6.713 0 012.6 2.54c.64 1.08.96 2.293.96 3.64s-.32 2.56-.96 3.64a6.712 6.712 0 01-2.6 2.54c-1.107.613-2.347.92-3.72.92zm0-.94c1.173 0 2.233-.267 3.18-.8a5.922 5.922 0 002.24-2.2c.546-.947.82-2 .82-3.16 0-1.16-.274-2.207-.82-3.14a5.879 5.879 0 00-2.24-2.22c-.947-.533-2.007-.8-3.18-.8-1.174 0-2.24.267-3.2.8a5.865 5.865 0 00-2.24 2.22c-.547.933-.82 1.98-.82 3.14 0 1.16.273 2.213.82 3.16a5.908 5.908 0 002.24 2.2c.96.533 2.026.8 3.2.8z"
+                        fill="#ED1E79"></path>
+                </svg>
+                <svg fill="none" class="logoMobile" alt="Mangas.io" viewBox="0 0 30 27">
+                    <title>Mangas.io</title>
+                    <path
+                        d="M.012.01h7.766L15 15.753 22.223.011h7.765v26.98h-6.29L23.659 9.9 17.33 24.297h-4.66L6.341 9.902V26.99H.012V.01z">
+                    </path>
+                    <path class="io"
+                        d="M22.506 5.119c.107 0 .197.08.197.188 0 .113-.09.199-.197.199a.193.193 0 01-.19-.2c0-.107.084-.187.19-.187zm1.363-3.253h.233v3.64h-.233v-3.64zm3.146 0a1.819 1.819 0 110 3.64 1.819 1.819 0 110-3.64zm0 .232c-.873 0-1.593.708-1.593 1.585s.72 1.59 1.593 1.59c.874 0 1.593-.713 1.593-1.59 0-.877-.72-1.585-1.593-1.585z">
+                    </path>
+                </svg>
+            </a>
+        </div>
+        <div class="center">
+            <nav class="nav-menu">
+                <a class="menu-item is-mobile" href="/signup/">M'abonner</a><a class="menu-item"
+                    href="/manga-en-ligne/">Nos mangas</a>
+                <a class="menu-item" href="/tarifs/">Tarifs</a>
+                <a class="menu-item"
+                    href="https://www.mangas.io/blog/?_gl=1*19wjolt*_up*MQ..*_ga*MjczMTgzMTA5LjE3MzAxMDc3NzQ.*_ga_CCCLL3ZK3Z*MTczMDEwNzc3NC4xLjAuMTczMDEwNzc3NC4wLjAuMA..">Blog</a>
+                <a class="menu-item is-mobile" href="/carte-cadeau">Carte cadeau</a>
+            </nav><span class="mobile-menu-toggle is-mobile clickable"><svg viewBox="0 0 24 24" role="presentation">
+                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" style="fill: currentcolor;">
+                    </path>
+                </svg></span>
+        </div>
+        <div class="side right">
+            <a class="menu-item item-gift-link" href="https://www.mangas.io/carte-cadeau?_gl=1*dx42c0*_up*MQ..*_ga*MjczMTgzMTA5LjE3MzAxMDc3NzQ.*_ga_CCCLL3ZK3Z*MTczMDEwNzc3NC4xLjAuMTczMDEwNzc3NC4wLjAuMA.."><img class="gift-icon" src="https://cdn.mangas.io/images/mdi_gift_magic-min.svg" alt="icon gift">
+                <span class="gift-label">Carte cadeau</span>
+            </a>
+                <span class="icon custom-margin icon-search"><svg viewBox="0 0 24 24" role="presentation">
+                    <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" style="fill: currentcolor;"></path>
+                    </svg>
+                </span>
+            <a class="menu-button" href="/login/"><button type="button" class="mio-button secondary medium"><span
+                        class="label">Se connecter</span></button></a>
+            <a class="menu-button is-hidden-mobile" href="/signup/"><button type="button" class="mio-button gold medium"><span class="label">M'abonner</span></button></a>
+        </div>
+    </header>
+
+    <!-- ICI C'EST LES DIVS DU MILIEUX ! -->
+    <div class="hero-image-mobile">
+        <img src="https://res-1.cloudinary.com/mangasio/image/fetch/c_limit,w_1200/f_auto/https://cdn.mangas.io/landing/mangas_io_landing_image_min.png"
+            width="100%" alt="Mangas.io">
+    </div>
+    <div class="hero-content">
+        <div class="hero-tags">
+            <span class="hero-tag">Sans engagement</span>
+            <span class="hero-tag">Des milliers de tomes</span>
+            <span class="hero-tag">150k+ passionné.e.s</span>
+        </div>
+        <h1 class="hero-title aos-init aos-animate" data-aos="fade-down">Tes mangas en ligne légalement et sans pub</h1>
+        <p class="hero-subtitle aos-init aos-animate" data-aos="fade" data-aos-delay="300">Lis tes mangas à l'abonnement
+            et retrouve de nouveaux chapitres disponibles chaque semaine dès 6,90&nbsp;€ par mois.</p>
+        <div class="headerButtons">
+            <a href="/signup"><button type="button" class="mio-button gold large withIcon aos-init aos-animate"
+                    id="cta_landing_access" data-aos="fade-up" data-aos-delay="300">
+                    <svg viewBox="0 0 24 24" role="presentation">
+                        <path
+                            d="M12 8L15 13.2L18 10.5L17.3 14H6.7L6 10.5L9 13.2L12 8M12 4L8.5 10L3 5L5 16H19L21 5L15.5 10L12 4M19 18H5V19C5 19.6 5.4 20 6 20H18C18.6 20 19 19.6 19 19V18Z"
+                            style="fill: currentcolor;"></path>
+                    </svg>
+                    <span class="label">Activer mon essai gratuit</span></button></a>
+            <a href="/"><button type="button" class="mio-button text small aos-init aos-animate" id="cta_landing_signup"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <span class="label">Commencer à lire gratuitement</span></button></a>
+        </div>
+        <div class="AppStore-buttons aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <a class="storeButtonLink" href="https://play.google.com/store/apps/details?id=io.mangas.app"
+                target="_blank" rel="noopener noreferrer">
+                <button type="button" class="storeButton mio-button android">
+                    <img src="https://cdn.mangas.io/landing/cta-google-play-min.svg" width="160" height="46"
+                        alt="Télécharger sur Google Play Store"></button></a>
+            <a class="storeButtonLink" href="https://apps.apple.com/fr/app/mangas-io-lecture-en-ligne/id1579236273"
+                target="_blank" rel="noopener noreferrer">
+                <button type="button" class="storeButton mio-button ios">
+                    <img src="https://cdn.mangas.io/landing/cta-app-store-min.svg" width="160" height="46"
+                        alt="Télécharger sur App Store"></button></a>
+            <a class="storeButtonLink" href="https://passculture.app/recherche/resultats?query=%22mangas.io%22"
+                target="_blank" rel="noopener noreferrer">
+                <button type="button" class="storeButton mio-button passCulture">
+                    <img src="https://cdn.mangas.io/landing/pass-culture-button.svg" width="160" height="46"
+                        alt="Aller sur le site Pass Culture"></button></a>
+        </div>
+    </div>
+
+    <!-- PARTENAIRES -->
+    <p class="section-title"><span>Nos éditeurs partenaires</span>
+        <i class="hr"></i>
+        ::after
+    </p>
+    <div class="partner-box">
+        <div class="content">
+            <ul class="partners-list">
+                <li><img src="https://images.prismic.io/mangasio/65c604d49be9a5b998b596d3_Soleil-Manga-blanc.png?auto=format,compress"
+                        width="2560" height="392" alt="Soleil Manga logo blanc"></li>
+                <li><img src="https://images.prismic.io/mangasio/1005a590-375e-4b62-a719-b1162fd359f0_LOGO-DELCOURT-TONKAM2.png?auto=compress,format"
+                        width="778" height="605"></li>
+                <li><img src="https://images.prismic.io/mangasio/2b6f0c91-8de7-47dc-ae42-2b8a73daf768_IWA+LOGO+Horizontal+Noir.png?auto=compress,format"
+                        width="18629" height="19437" alt="Iwa éditions"></li>
+                <li><img src="https://images.prismic.io/mangasio/9d7fcb76-482c-419b-90be-4769a142cada_logo-hariken-blanc.png?auto=compress,format"
+                        width="862" height="259" alt="Logo Hariken blanc png"></li>
+                <li><img src="https://images.prismic.io/mangasio/b4d1dc67-e465-46f9-b81f-d8f64e6d9280_NOUVELLE+HYDRE+LOGO.png?auto=compress,format"
+                        width="375" height="158" alt="Logo Nouvelle Hydre png"></li>
+                <li><img src="https://images.prismic.io/mangasio/f0afb46d-ec00-4bcd-ad69-bbe42e95556d_Komogi_logo+-+Horizontal+%28Jaune%29+%5BAVEC+TEXTE%5D.png?auto=compress,format"
+                        width="1277" height="291" alt="Logo Komogi png"></li>
+                <li><img src="https://images.prismic.io/mangasio/90a205ed-71d3-4145-a3aa-0c4f2eb931f5_chatto-chatto-edition-logo.png?auto=compress,format"
+                        width="662" height="358" alt="Chattochatto"></li>
+                <li><img src="https://images.prismic.io/mangasio/745c45da-d7da-47d7-82b0-5b01f3dc6a10_logo-myria-editions-blanc.png?auto=compress,format"
+                        width="300" height="341" alt="Myria Editions"></li>
+                <li><img src="https://images.prismic.io/mangasio/2e586281-e7f0-4632-b710-86fc53aafb44_Les-humanoides-associes-logo-white.png?auto=compress,format"
+                        width="797" height="301" alt="Les Humanoïdes Associés"></li>
+                <li><img src="https://images.prismic.io/mangasio/e42003ee-cb31-4550-a27d-ed8667717d10_Patayo.png?auto=compress,format"
+                        width="389" height="374" alt="Patayo Éditions"></li>
+                <li><img src="https://images.prismic.io/mangasio/828dcd5a-a1cc-4749-a0e0-a5eae4eb96d8_Kana-site-min.png?auto=compress,format"
+                        width="171" height="171" alt="Kana"></li>
+                <li><img src="https://images.prismic.io/mangasio/4d631f3c-6579-4ca8-afec-a3083230e281_Nouveau_logo_Ki-oon.svg.png?auto=compress,format"
+                        width="1200" height="457" alt="Ki-oon"></li>
+                <li><img src="https://images.prismic.io/mangasio/a7e6a9c1-77d7-479f-801f-4b5b543df3f8_Frame+492.png?auto=compress,format"
+                        width="736" height="316" alt="Akata Éditions"></li>
+                <li><img src="https://images.prismic.io/mangasio/9723521e-014e-45bd-a666-2c7b7dcdd921_logo-imho-min.png?auto=compress,format&amp;rect=50,0,180,128&amp;w=180&amp;h=128"
+                        width="180" height="128" alt="IMHO"></li>
+                <li><img src="https://images.prismic.io/mangasio/562f1c74-6129-4a0f-a231-0cb64894b659_Logo-ManEd.png?auto=compress,format"
+                        width="150" height="150" alt="ManEd"></li>
+                <li><img src="https://images.prismic.io/mangasio/bf0b14d6-f07d-4fce-9ba2-f6dbf97b4e4e_logo-Maho-Editions-min.png?auto=compress,format"
+                        width="258" height="117" alt="Mahô"></li>
+                <li><img src="https://images.prismic.io/mangasio/0923d42d-67d1-404a-8445-5518fae62bbc_asian_district_transparent.png?auto=compress,format"
+                        width="198" height="198"></li>
+                <li><img src="https://images.prismic.io/mangasio/7ebe449a-b154-49d9-8767-cc80d3d8d03b_logo-nazca-min.png?auto=compress,format"
+                        width="114" height="114" alt="Nazca Éditions"></li>
+                <li><img src="https://images.prismic.io/mangasio/2302975a-c65c-4d75-9545-dfa317bdb187_logo-naban-min.png?auto=compress,format"
+                        width="224" height="66" alt="naBan"></li>
+                <li><img src="https://images.prismic.io/mangasio/f3a9d489-f71c-4736-8d32-28ecdecd2704_logo-black-box-editions-min.png?auto=compress,format"
+                        width="197" height="65" alt="Black Box"></li>
+                <li><img src="https://images.prismic.io/mangasio/Zfqs6g4qyfNhFzUO_LOGO_Shiba-Edition_H_Blanc.png?auto=format%2Ccompress&amp;rect=56%2C34%2C657%2C398&amp;w=769&amp;h=466"
+                        width="769" height="466"></li>
+                <li><img src="https://images.prismic.io/mangasio/ZkNpgyol0Zci9HNG_crunchyroll_logo_vertical.png?auto=format,compress"
+                        width="2043" height="2191"></li>
+                <li><img src="https://images.prismic.io/mangasio/ZmAfupm069VX1d86_vSbo1jeQ.png?auto=format,compress"
+                        width="493" height="265"></li>
+                <li><img src="https://images.prismic.io/mangasio/ZsyHGkaF0TcGJZZD_LogoReborn.png?auto=format%2Ccompress&amp;rect=16%2C89%2C1596%2C496&amp;w=1947&amp;h=605"
+                        width="1947" height="605"></li>
+                <li><img src="https://images.prismic.io/mangasio/Zs2bPEaF0TcGJaxD_Log_Luna_Nombre2.png?auto=format,compress"
+                        width="466" height="225"></li>
+                <li><img src="https://images.prismic.io/mangasio/ZvaxXrVsGrYSwE8B_Pmanga_02.png?auto=format,compress"
+                        width="962" height="210"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- CARROUSEL ! -->
+    <p class="mio-text bold medium display">Des milliers de mangas à l’abonnement</p>
+    <p class="mio-text large text subtitleText">Voici nos mangas les plus populaires :</p>
+    <div class="carrousel-wrapper">
+        <p class="mio-text small text pre-title"></p>
+        <div class="titleBloc">
+            <p class="mio-text small display --title-s title">Tendances du moment</p>
+        </div>
+        <div class="mio-carrousel scrollable align-controls-with-pictures tiles-medium">
+            <div class="carrousel-shadow right">
+
+            </div>
+            <div class="carrousel-shadow left hidden">
+
+            </div>
+            <div class="elements">
+                <div style="margin-right: -10px; opacity: 0.6;">
+                    <div class="mangaline-tagContent">
+                        <p class="mio-text bold small display">1</p>
+                    </div>
+                </div>
+                <a href="/lire/todag">
+                    <div class="mio-manga-tile medium">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url(&quot;https://res-3.cloudinary.com/mangasio/image/fetch/c_limit,w_225/f_auto/https://cdn.mangas.io/uploads/tAg1aWGWXND2wZgbT4Lbg.jpeg&quot;);">
+
+                            </div>
+                            <div class="hover-effects">
+                                <div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mio-text bold medium text">TODAG - Tales of Demons and Gods</p>
+                        <p class="mio-text small text subtitle">Webtoon · Manhua</p>
+                    </div>
+                </a>
+                <div style="margin-right: -10px; opacity: 0.6;">
+                    <div class="mangaline-tagContent">
+                        <p class="mio-text bold small display">2</p>
+                    </div>
+                </div>
+                <a href="/lire/why-we-fall-in-love">
+                    <div class="mio-manga-tile medium">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url(&quot;https://res-4.cloudinary.com/mangasio/image/fetch/c_limit,w_225/f_auto/https://cdn.mangas.io/uploads/60Sqe4ZYllDLKzAfs0WVq.jpeg&quot;);">
+
+                            </div>
+                            <div class="hover-effects">
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mio-text bold medium text">Why we fall in love</p>
+                        <p class="mio-text small text subtitle">Josei · Romance</p>
+                    </div>
+                </a>
+                <div style="margin-right: -10px; opacity: 0.6;">
+                    <div class="mangaline-tagContent">
+                        <p class="mio-text bold small display">3</p>
+                    </div>
+                </div>
+                <a href="/lire/city-hunter">
+                    <div class="mio-manga-tile medium">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url(&quot;https://res-5.cloudinary.com/mangasio/image/fetch/c_limit,w_225/f_auto/https://cdn.mangas.io/uploads/40RoTnlRcTTw0Bh7XNJag.png&quot;);">
+
+                            </div>
+                            <div class="hover-effects">
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mio-text bold medium text">City Hunter</p>
+                        <p class="mio-text small text subtitle">Shōnen · Romance</p>
+                    </div>
+                </a>
+                <div style="margin-right: -10px; opacity: 0.6;">
+                    <div class="mangaline-tagContent">
+                        <p class="mio-text bold small display">4</p>
+                    </div>
+                </div>
+                <a href="/lire/undead-unluck">
+                    <div class="mio-manga-tile medium">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url(&quot;https://res-5.cloudinary.com/mangasio/image/fetch/c_limit,w_225/f_auto/https://cdn.mangas.io/uploads/2PDGx8A2BjaMwXgUR30fd.jpeg&quot;);">
+
+                            </div>
+                            <div class="hover-effects">
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mio-text bold medium text">Undead Unluck</p>
+                        <p class="mio-text small text subtitle">Shōnen · Science-fiction</p>
+                    </div>
+                </a>
+                <div style="margin-right: -10px; opacity: 0.6;">
+                    <div class="mangaline-tagContent"><p class="mio-text bold small display">5</p>
+                    </div>
+                </div>
+                <a href="/lire/haikyuu">
+                    <div class="mio-manga-tile medium">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url(&quot;https://res-1.cloudinary.com/mangasio/image/fetch/c_limit,w_225/f_auto/https://cdn.mangas.io/uploads/KPFVhbT4o_mddYvNu31JU.jpeg&quot;);">
+
+                            </div>
+                            <div class="hover-effects">
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mio-text bold medium text">Haikyū!! - Les As du volley</p>
+                        <p class="mio-text small text subtitle">Shōnen · Tranche-de-vie</p>
+                    </div>
+                </a>
+                <div style="margin-right: -10px; opacity: 0.6;">
+                    <div class="mangaline-tagContent">
+                        <p class="mio-text bold small display">6</p>
+                    </div>
+                </div>
+                <a href="/lire/kamuya-ride">
+                    <div class="mio-manga-tile medium">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url(&quot;https://res-2.cloudinary.com/mangasio/image/fetch/c_limit,w_225/f_auto/https://cdn.mangas.io/uploads/05qXus1oT18pwtCbqVXnt.png&quot;);">
+
+                            </div>
+                            <div class="hover-effects"><div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mio-text bold medium text">Kamuya Ride</p>
+                    <p class="mio-text small text subtitle">Seinen · Fantastique</p>
+                </div>
+            </a>
+            <div style="margin-right: -10px; opacity: 0.6;">
+                <div class="mangaline-tagContent">
+                    <p class="mio-text bold small display">7</p>
+                </div>
+            </div>
+            <a href="/lire/alice-in-kyoto-forest"><div class="mio-manga-tile medium">
+                <div class="image-container">
+                    <div class="image" style="background-image: url(&quot;https://res-3.cloudinary.com/mangasio/image/fetch/c_limit,w_225/f_auto/https://cdn.mangas.io/uploads/8uQk0Z5p8yiK4Z2EhPlO1.jpeg&quot;);">
+
+                    </div>
+                    <div class="hover-effects">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <p class="mio-text bold medium text">Alice in Kyoto Forest</p>
+                <p class="mio-text small text subtitle">Fantastique · Aventure</p>
+            </div>
+        </a>
+        <div style="margin-right: -10px; opacity: 0.6;">
+            <div class="mangaline-tagContent">
+                <p class="mio-text bold small display">8</p>
+            </div>
+        </div>
+        <a href="/lire/boruto-tbv">
+            <div class="mio-manga-tile medium">
+                <div class="image-container">
+                    <div class="image" style="background-image: url(&quot;https://res-3.cloudinary.com/mangasio/image/fetch/c_limit,w_225/f_auto/https://cdn.mangas.io/uploads/fHZAtZ4dVnkHAgUMTNhmZ.jpeg&quot;);">
+
+                    </div>
+                    <div class="hover-effects">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <p class="mio-text bold medium text">Boruto - Two Blue Vortex</p>
+                <p class="mio-text small text subtitle">Shōnen · Aventure</p>
+            </div>
+        </a>
+        <div style="margin-right: -10px; opacity: 0.6;">
+            <div class="mangaline-tagContent">
+                <p class="mio-text bold small display">9</p>
+            </div>
+        </div>
+        <a href="/lire/ayako-enfant-nuit">
+            <div class="mio-manga-tile medium">
+                <div class="image-container">
+                    <div class="image" style="background-image: url(&quot;https://res-5.cloudinary.com/mangasio/image/fetch/c_limit,w_225/f_auto/https://cdn.mangas.io/uploads/cFg4uJaXya3zlP-pmLgdn.jpeg&quot;);">
+
+                    </div>
+                    <div class="hover-effects">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <p class="mio-text bold medium text">Ayako, l'enfant de la nuit</p>
+                <p class="mio-text small text subtitle">Seinen · Historique</p>
+            </div>
+        </a>
+        <div style="margin-right: -10px; opacity: 0.6;">
+            <div class="mangaline-tagContent">
+                <p class="mio-text bold small display">10</p>
+            </div>
+        </div>
+        <a href="/lire/yuan-zun">
+            <div class="mio-manga-tile medium">
+                
+            </div>
+            <div class="hover-effects"><div>
+
+            </div>
+        </div>
+    </div>
+    <p class="mio-text bold medium text">Yuan Zun</p>
+    <p class="mio-text small text subtitle">Webtoon · Manhua</p>
+</div>
+</a>
+</div>
+<div class="controls left hidden">
+    <svg viewBox="0 0 24 24" role="presentation">
+        <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" style="fill: currentcolor;"></path></svg>
+</div>
+<div class="controls right">
+    <svg viewBox="0 0 24 24" role="presentation">
+        <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" style="fill: currentcolor;"></path></svg>
+    </div>
+</div>
+</div>
+<a class="buttonLink" href="/manga-en-ligne">
+    <button type="button" class="mio-button" id="button">
+        <span class="label">Voir notre catalogue complet</span>
+    </button>
+</a>
+
+<!-- app ultime -->
+<p class="mio-text bold medium display">L’app ultime de lecture pour les fans de mangas !</p>
+<p class="mio-text large text subtitleText">Découvre nos meilleurs titres gratuitement 👇</p>
+
+<div id="LandingFeatures"><div class="big-card type-1">
+    <div class="big-card-content aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+        <div class="illu-mobile custom-illu-preview-mobile"><img src="https://cdn.mangas.io/landing/feature-preview-mobile-min.png" width="420" height="280" alt="" class=""></div>
+    <div class="content">
+        <h3 class="title">Lis tes mangas où et quand tu veux</h3>
+        <p>Tes héro.ine.s de manga préféré.e.s seront toujours à tes côtés avec Mangas.io&nbsp;! Utilise notre app iOS et Android sur mobile ou notre plateforme web sur ton grand écran pour faire le plein de lecture.</p>
+    </div>
+    
+    <div class="illu custom-illu-preview">
+        <img src="https://cdn.mangas.io/landing/feature-preview-min.png" width="643" height="453" alt="" class=""></div>
+    </div>
+</div>
+
+<div class="big-card type-2 reverse">
+    <div class="big-card-content">
+        <div class="illu-mobile">
+            <img src="https://cdn.mangas.io/landing/feature-hd-mobile-min.png" width="325" height="233" alt="" class="">
+        </div>
+        
+        <div class="content">
+            <h3 class="title">Profite d’un confort de lecture ultime</h3>
+            <p>Notre lecteur a été pensé par des fans de manga pour des fans de manga. Fini les scans de mauvaise qualité, profite enfin de tes mangas en HD avec la traduction officielle. Lis sans publicité gênante et personnalise ton lecteur selon tes envies !</p>
+        </div>
+        <div class="illu">
+            <img src="https://cdn.mangas.io/landing/feature-hd-min.png" width="442" height="310" alt="" class="">
+        </div>
+    </div>
+</div>
+
+<div class="big-card type-3">
+    <div class="big-card-content">
+        <div class="illu-mobile custom-illu-preview-mobile">
+        <img src="https://cdn.mangas.io/landing/feature-preview-mobile-three.png" width="420" height="280" alt="" class=""></div>
+            <div class="content">
+                <h3 class="title">Découvre de nouvelles pépites en exclusivité</h3>
+                <p>Découvre les derniers chapitres de tes mangas préférés en simultrad, en direct du Japon et de la Chine&nbsp;! Accède également à de nombreux mangas disponibles en avant-première, en exclusivité et en prépublication gratuite sur Mangas.io !</p>
+            </div>
+<div class="illu custom-illu-preview"><img src="https://cdn.mangas.io/landing/feature-preview-three.png" width="442" height="310" alt="" class=""></div>
+        </div>
+    </div>
+</div>
+
+<!-- ABONNEMENT -->
+<p class="mio-text bold medium display">L’abonnement au prix d’un manga par mois</p>
+<p class="mio-text large text subtitleText">Nos offres d’abonnement en ligne</p>
+<div class="subscription">
+    <div id="panels" class="panels">
+        <div class="panel">
+            <div id="PricingCardNew" class="monthly card">
+                <div class="background"><div class="card-header">
+                    <span>Mensuel</span>
+                </div>
+                <div class="card-content">
+                    <div class="mainCard">
+                        <div class="mainCardContent">
+                            <span class="chip hidden">
+                                
+                            </span>
+                            <p class="price">
+                                <span>6,90 €</span>
+                                <small>Par mois</small></p>
+                            </div>
+                        </div>
+                        <div class="bottomCard">
+                            <p class="subtitle"></p>
+                            <div><a class="button" rel="noreferrer noopener" href="/signup">J'active mes 7 jours gratuits</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <div id="PricingCardNew" class="yearly card">
+                <div class="background">
+                    <div class="card-header">
+                        <span>Annuel</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="mainCard">
+                            <div class="mainCardContent">
+                                <span class="chip">2 mois offerts !</span>
+                                <p class="price">
+                                    <span>69,90 €</span>
+                                    <small>Par an</small></p>
+                                </div>
+                            </div>
+                            <div class="bottomCard">
+                                <p class="subtitle"></p>
+                                <div>
+                                    <a class="button" rel="noreferrer noopener" href="/signup">J'active mes 7 jours gratuits</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div id="PricingCardNew" class="passCulture card">
+                    <div class="background">
+                        <div class="card-header">
+                            <span>Pass culture</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="mainCard">
+                                <div class="mainCardContent">
+                                    <span class="chip">Pour les 18 ans et moins !</span>
+                                    <div class="logo">
+                                        <img src="https://cdn.mangas.io/images/pass-culture-min.svg" alt="Logo du Pass Culture" width="230" height="78">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottomCard">
+                                <p class="subtitle">Bénéficie gratuitement de ton abonnement Mangas.io&nbsp;!</p>
+                                <div>
+                                    <a class="button" rel="noreferrer noopener" href="https://passculture.app/recherche/resultats?query=%22mangas.io%22">Découvrir l’offre</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-notice">
+        <img src="https://cdn.mangas.io/landing/ic_outline-lightbulb-min.svg" width="24" height="24" alt="lightbulb" class="icon">
+        <span>Toutes nos offres sont sans engagement et résiliables quand tu le souhaites.</span>
+    </div>
+
+<!-- LES AVIS-->
+<div class="feedback-bg-1 rellax" data-rellax-speed="-2" data-rellax-percentage="0.5" style="transform: translate3d(0px, 47px, 0px);">
+
+</div>
+<div class="feedback-bg-2 rellax" data-rellax-speed="-4" data-rellax-percentage="0.5" style="transform: translate3d(0px, 94px, 0px);">
+
+</div>
+<div class="section-container">
+    <div class="content-wrapper">
+        <p class="mio-text bold medium display">Les avis de la communauté manga</p>
+    </div>
+</div>
+<div class="mio-carrousel scrollable">
+    <div class="elements">
+        <div class="user-feedback" style="color: rgb(102, 74, 200); background-color: rgb(102, 74, 200);">
+            <p class="username">Himenoana</p><span class="info">Le 10 avril 2023</span>
+            <hr class="separator"><p>Un catalogue très complet, passant par les titres populaires à d'autres uniquement disponibles chez Mangas.io, et à prix abordable... Une belle alternative aux plateformes illégales !</p>
+            <div class="user-avatar" style="border-color: rgb(102, 74, 200);">
+                <img src="https://images.prismic.io/mangasio/69b2e28e-c3e9-4a12-b22e-f2115a5217a0_unnamed.jpeg?auto=compress,format" width="64" height="64" alt="User avatar" class="">
+            </div>
+            <div class="user-feedback-icon" style="color: rgb(102, 74, 200);">
+                <img src="https://images.prismic.io/mangasio/db6c2193-6069-420c-9be0-a8766ec79360_emoji+oeil+en+coeur+.png?auto=compress,format" width="40" height="40" alt="" class="">
+            </div>
+        </div>
+        <div class="user-feedback" style="color: rgb(173, 16, 85); background-color: rgb(173, 16, 85);">
+            <p class="username">Chan K</p>
+            <span class="info">Le 2 avril 2023</span>
+            <hr class="separator"><p>Super app, un abonnement pas cher pour des mangas en illimité. Le catalogue romance commence à être très intéressant pour les amateurs de webtoon, c'est le bon choix rapport qualité prix !</p>
+            <div class="user-avatar" style="border-color: rgb(173, 16, 85);">
+                <img src="https://images.prismic.io/mangasio/1eb7ba37-4ee0-4316-bebb-7e25dfeb5a89_Avatar+5-min.jpg?auto=compress,format" width="64" height="64" alt="User avatar" class="">
+            </div>
+            <div class="user-feedback-icon" style="color: rgb(173, 16, 85);">
+                <img src="https://images.prismic.io/mangasio/43789df0-7201-4e31-8164-0908f008fd92_1f525.png?auto=compress,format" width="40" height="40" alt="" class="">
+            </div>
+        </div>
+        <div class="user-feedback" style="color: rgb(212, 41, 76); background-color: rgb(212, 41, 76);">
+            <p class="username">Florian</p>
+            <span class="info">Le 2 avril 2023</span>
+            <hr class="separator"><p>Très bonne application, avec quelques très bons mangas complets. Je conseille Bakuman notamment. J'espère que la communauté va grossir pour que Mangas.io puissent attirer encore plus d'éditeurs !</p>
+            <div class="user-avatar" style="border-color: rgb(212, 41, 76);">
+                <img src="https://images.prismic.io/mangasio/a69b6b15-fd0e-4c77-85f2-6537331e9337_Avatar+6-min.jpg?auto=compress,format" width="64" height="64" alt="User avatar" class="">
+            </div>
+            <div class="user-feedback-icon" style="color: rgb(212, 41, 76);">
+                <img src="https://images.prismic.io/mangasio/db6c2193-6069-420c-9be0-a8766ec79360_emoji+oeil+en+coeur+.png?auto=compress,format" width="40" height="40" alt="" class="">
+            </div>
+        </div>
+        <div class="user-feedback" style="color: rgb(43, 127, 201); background-color: rgb(43, 127, 201);">
+            <p class="username">Alexandre</p>
+            <span class="info">Le 1er avril 2023</span>
+            <hr class="separator"><p>Un plaisir dans les transports ou dans son lit de pouvoir lire ses mangas tranquillement. Il y a des ajouts et l’équipe est toujours à la recherche de nouvelles licences pour notre plus grand plaisir.</p>
+            <div class="user-avatar" style="border-color: rgb(43, 127, 201);">
+                <img src="https://images.prismic.io/mangasio/329b091c-d5a9-471f-9ada-bb1983dfe54c_Avatar+3-min.jpg?auto=compress,format" width="64" height="64" alt="User avatar" class="">
+            </div>
+            <div class="user-feedback-icon" style="color: rgb(43, 127, 201);">
+                <img src="https://images.prismic.io/mangasio/ebc3e992-1eed-403d-8e0f-2efe120a0259_emoji-etonne%CC%81.png?auto=compress,format" width="40" height="40" alt="" class="">
+            </div>
+        </div>
+        <div class="user-feedback" style="color: rgb(102, 74, 200); background-color: rgb(102, 74, 200);">
+            <p class="username">Higanjima</p>
+            <span class="info">Le 29 mars 2023</span>
+            <hr class="separator">
+            <p>Le meilleur service légal en ligne pour lire de super mangas et WEBTOON. Bravo à toute l’équipe et aussi aux éditeurs qui jouent le jeu !!! Longue vie à ce service !</p>
+            <div class="user-avatar" style="border-color: rgb(102, 74, 200);">
+                <img src="https://images.prismic.io/mangasio/2ba7b598-363d-431f-baa9-c194946d9a62_Avatar+1-min.jpg?auto=compress,format" width="64" height="64" alt="User avatar" class="">
+            </div>
+            <div class="user-feedback-icon" style="color: rgb(102, 74, 200);">
+                <img src="https://images.prismic.io/mangasio/2b689c93-7630-451a-891e-93dcafe3fdd8_emoji-thumbsup.png?auto=compress,format" width="40" height="40" alt="" class="">
+            </div>
+        </div>
+        <div class="user-feedback" style="color: rgb(173, 16, 85); background-color: rgb(173, 16, 85);">
+            <p class="username">Apollinaire</p>
+            <span class="info">Le 21 mars 2023</span>
+            <hr class="separator"><p>Je recommande vraiment Mangas.io, c'est top. Pour le prix d'un volume de manga standard par mois, on peut lire de nombreux volumes, en faisant des découvertes dans différents genres.</p>
+            <div class="user-avatar" style="border-color: rgb(173, 16, 85);">
+                <img src="https://images.prismic.io/mangasio/256604af-299f-49bd-9605-8cd5b15d2cf1_appollinaire.png?auto=compress,format" width="64" height="64" alt="User avatar" class="">
+            </div>
+            <div class="user-feedback-icon" style="color: rgb(173, 16, 85);">
+                <img src="https://images.prismic.io/mangasio/2b689c93-7630-451a-891e-93dcafe3fdd8_emoji-thumbsup.png?auto=compress,format" width="40" height="40" alt="" class="">
+            </div>
+        </div>
+        <div class="user-feedback" style="color: rgb(212, 41, 76); background-color: rgb(212, 41, 76);">
+            <p class="username">Tatowwww</p>
+            <span class="info">Le 22 mars 2023</span>
+            <hr class="separator"><p>Abonné depuis deux ans, il y a toujours plus de nouveaux contenus et l’application est vraiment top !</p>
+            <div class="user-avatar" style="border-color: rgb(212, 41, 76);">
+                <img src="https://images.prismic.io/mangasio/cd947e72-7199-4144-9c63-741d8d3fd4ec_Avatar+2-min.jpg?auto=compress,format" width="64" height="64" alt="User avatar" class="">
+            </div>
+            <div class="user-feedback-icon" style="color: rgb(212, 41, 76);">
+                <img src="https://images.prismic.io/mangasio/43789df0-7201-4e31-8164-0908f008fd92_1f525.png?auto=compress,format" width="40" height="40" alt="" class="">
+            </div>
+        </div>
+        <div class="user-feedback" style="color: rgb(43, 127, 201); background-color: rgb(43, 127, 201);">
+            <p class="username">Julien</p>
+            <span class="info">Le 27 mars 2023</span>
+            <hr class="separator"><p>Je me suis replongé dans votre catalogue et j'ai repris plaisir à lire des mangas en ligne. Votre catalogue ne cesse de grandir, votre initiative mérite mon soutien, continuez comme ça.</p>
+            <div class="user-avatar" style="border-color: rgb(43, 127, 201);">
+                <img src="https://images.prismic.io/mangasio/0a61d057-0129-49a1-afef-39c115b5f9c7_Avatar+4-min.jpg?auto=compress,format" width="64" height="64" alt="User avatar" class="">
+            </div>
+            <div class="user-feedback-icon" style="color: rgb(43, 127, 201);">
+                <img src="https://images.prismic.io/mangasio/db6c2193-6069-420c-9be0-a8766ec79360_emoji+oeil+en+coeur+.png?auto=compress,format" width="40" height="40" alt="" class="">
+            </div>
+        </div>
+    </div>
+    <div class="controls left hidden">
+        <svg viewBox="0 0 24 24" role="presentation">
+            <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" style="fill: currentcolor;"></path></svg>
+    </div>
+    <div class="controls right">
+        <svg viewBox="0 0 24 24" role="presentation">
+            <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" style="fill: currentcolor;"></path></svg>
+        </div>
+    </div>
+
+
+ <!-- CEST LE CADEAUX !!!!-->
+
+ <div class="titleHeader">
+    <p class="mio-text bold medium display">Nos cartes cadeaux à offrir 🎁</p>
+    <p class="mio-text large text subtitleText">Un cadeau manga à petit prix ! </p>
+</div>
+
+<!-- ICI C'EST LES OFFRES ! -->
+<div id="LandingCards"><div class="CardsComponent"><div class="priceBloc" style="background: linear-gradient(74.66deg, rgb(0, 177, 188) 0%, rgb(7, 77, 255) 100%);"><p class="mio-text bold small display">6 MOIS</p><div class="tag">UTILISATION INSTANTANÉE</div><img src="https://cdn.mangas.io/images/voucher/collector-cards-6m.png" height="116" alt="card preview"><p class="mio-text medium text tag tagWhite textDarkBlue">1 mois offert !</p><p class="mio-text medium text priceText">34,50€</p><button type="button" class="mio-button btnOffer primary large"><span class="label">Offrir 6 mois d'abonnement</span></button><p class="mio-text small text subText">CARTE CADEAU DIGITALE</p></div><div class="priceBloc" style="background: linear-gradient(rgb(235, 176, 25) 0%, rgb(234, 100, 25) 100%);"><p class="mio-text bold small display">1 AN</p><div class="tag">UTILISATION INSTANTANÉE</div><img src="https://cdn.mangas.io/images/voucher/collector-cards-1y.png" height="116" alt="card preview"><p class="mio-text medium text tag tagWhite textDarkBlue">2 mois offerts !</p><p class="mio-text medium text priceText">69,90€</p><button type="button" class="mio-button btnOffer primary large"><span class="label">Offrir 1 an d'abonnement</span></button><p class="mio-text small text subText">CARTE CADEAU DIGITALE</p></div></div></div>
+
+<!-- ICI C'EST LES QUESTIONS ! -->
+<div id="LandingFaq" class=""><div class="section-container"><div class="content-wrapper"><h2 class="faq-title">Questions fréquentes</h2><div class="faq-container"><ul class="faq"><li class="faq-row"><div role="button" class="faq-question active"><div class="content"><h3 class="title">Dans quels pays est disponible Mangas.io ?</h3><svg viewBox="0 0 24 24" role="presentation" class="close"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" style="fill: currentcolor;"></path></svg></div></div><div class="faqAnswer active"><div class="content"><p>Mangas.io est disponible sur les territoires francophones suivants&nbsp;: France et ses DROM-COM, Monaco, Andorre, Belgique, Luxembourg, Suisse, Canada Francophone.</p></div></div></li><li class="faq-row"><div role="button" class="faq-question"><div class="content"><h3 class="title">Qu’est-ce que je peux lire sur Mangas.io ?</h3><svg viewBox="0 0 24 24" role="presentation" class="close"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" style="fill: currentcolor;"></path></svg></div></div><div class="faqAnswer"><div class="content"><p>Consulte <a target="_blank" href="https://www.mangas.io/manga-en-ligne" rel="noreferrer">notre catalogue actuel</a>. Ce dernier évolue à mesure que nous négocions de nouveaux titres avec des éditeurs partenaires. Plus la plateforme a de succès, plus nous sommes en mesure d'agrandir notre catalogue !</p></div></div></li><li class="faq-row"><div role="button" class="faq-question"><div class="content"><h3 class="title">Comment profiter de l'offre pass Culture ?</h3><svg viewBox="0 0 24 24" role="presentation" class="close"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" style="fill: currentcolor;"></path></svg></div></div><div class="faqAnswer"><div class="content"><p>Tu peux profiter de 1 mois, 3 mois, 6 mois ou 1 an d'abonnement gratuitement grâce à notre offre pass Culture disponible juste <a target="_self" href="https://www.mangas.io/pass-culture" rel="noreferrer">ici</a>.</p></div></div></li><li class="faq-row"><div role="button" class="faq-question"><div class="content"><h3 class="title">Comment rémunérez-vous les auteurs et éditeurs ?</h3><svg viewBox="0 0 24 24" role="presentation" class="close"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" style="fill: currentcolor;"></path></svg></div></div><div class="faqAnswer"><div class="content"><p>Cela dépend de nos accords avec les ayants-droits, soit en "flat", c'est-à-dire en achetant d'emblée les droits d'exploitation numériques, soit en "revenue sharing", c'est-à-dire en rémunérant les ayants-droits chaque mois en proportion de la lecture réelle des utilisateurs.</p></div></div></li><li class="faq-row"><div role="button" class="faq-question"><div class="content"><h3 class="title">Qui est derrière Mangas.io ?</h3><svg viewBox="0 0 24 24" role="presentation" class="close"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" style="fill: currentcolor;"></path></svg></div></div><div class="faqAnswer"><div class="content"><p>Mangas.io est le fruit du travail de toute une équipe que nous t'invitons à <a target="_blank" href="https://www.mangas.io/team" rel="noreferrer">découvrir ici</a>. Tu peux d'ailleurs échanger avec nous sur <a target="_blank" href="https://discord.com/invite/T3FAWnw" rel="noreferrer">Discord</a> ! ;)</p></div></div></li><li class="faq-row"><div role="button" class="faq-question"><div class="content"><h3 class="title">Où lire ses mangas en ligne légalement ?</h3><svg viewBox="0 0 24 24" role="presentation" class="close"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" style="fill: currentcolor;"></path></svg></div></div><div class="faqAnswer"><div class="content"><p>Il existe plusieurs solutions légales pour lire tes mangas en ligne légalement ! Depuis plusieurs années, il est possible d'acheter des mangas numériques à l'unité. Mais face à cette unique (et coûteuse) solution, nous avons lancé Mangas.io et son modèle à l'abonnement : pour le prix d'un manga par mois, nous te proposons des milliers de chapitres à lire en illimité !</p></div></div></li><li class="faq-row"><div role="button" class="faq-question"><div class="content"><h3 class="title">Pourquoi lire ses mangas légalement ?</h3><svg viewBox="0 0 24 24" role="presentation" class="close"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" style="fill: currentcolor;"></path></svg></div></div><div class="faqAnswer"><div class="content"><p>Tout simplement pour soutenir les artistes qui te font rêver au quotidien ! Pour chacune de tes lectures, nous rémunérons tes mangakas préférés ! Notre plateforme s’engage à mettre en place un modèle de rémunération juste, viable et efficace pour les auteurs et les éditeurs. Il est temps de réconcilier les intérêts des lecteurs et des créateurs !</p></div></div></li></ul><p class="faq-footer">Tu n’as pas trouvé ta réponse ? <a target="_blank" rel="noreferrer noopener" href="mailto:support@mangas.io?subject=💌 SAV / Service clients">contacte nous</a>.</p></div></div></div></div>
+
+<!-- ICI C'EST LE SUPPORT ! -->
+<div id="LandingSupportCoffee"><div class="big-card type-4"><div class="big-card-content"><div class="illu-mobile"><img src="https://cdn.mangas.io/landing/coffee-manga-mobile-min.png" width="238" height="240" alt="coffee reading a book"></div><div class="content"><h2 class="title">Soutiens les créateur.ice.s qui te font rêver !</h2><p>En lisant des mangas sur Mangas.io, tu contribues directement à soutenir le travail de tes mangakas préférés. En plus d’être juste et viable, notre modèle est l’un des plus rémunérateurs pour les ayants droit !</p><br><div class="big-card-cta"><div class="buttons-container"><a href="/signup"><button type="button" class="mio-button gold large withIcon" id="cta_signup"><svg viewBox="0 0 24 24" role="presentation"><path d="M12 8L15 13.2L18 10.5L17.3 14H6.7L6 10.5L9 13.2L12 8M12 4L8.5 10L3 5L5 16H19L21 5L15.5 10L12 4M19 18H5V19C5 19.6 5.4 20 6 20H18C18.6 20 19 19.6 19 19V18Z" style="fill: currentcolor;"></path></svg><span class="label">Activer mon essai gratuit</span></button></a><a href="/"><button type="button" class="mio-button text small" id="cta_access"><span class="label">Commencer à lire gratuitement</span></button></a></div><div class="AppStore-buttons"><a class="storeButtonLink" href="https://play.google.com/store/apps/details?id=io.mangas.app" target="_blank" rel="noopener noreferrer"><button type="button" class="storeButton mio-button android"><img src="https://cdn.mangas.io/landing/cta-google-play-min.svg" width="160" height="46" alt="Télécharger sur Google Play Store"></button></a><a class="storeButtonLink" href="https://apps.apple.com/fr/app/mangas-io-lecture-en-ligne/id1579236273" target="_blank" rel="noopener noreferrer"><button type="button" class="storeButton mio-button ios"><img src="https://cdn.mangas.io/landing/cta-app-store-min.svg" width="160" height="46" alt="Télécharger sur App Store"></button></a><a class="storeButtonLink" href="https://passculture.app/recherche/resultats?query=%22mangas.io%22" target="_blank" rel="noopener noreferrer"><button type="button" class="storeButton mio-button passCulture"><img src="https://cdn.mangas.io/landing/pass-culture-button.svg" width="160" height="46" alt="Aller sur le site Pass Culture"></button></a></div></div></div><div class="illu"><img src="https://cdn.mangas.io/landing/coffee-manga-min.png" width="324" height="328" alt="coffee reading a book"></div></div></div></div>
+
+<!-- ICI C'EST LES PARTENAIRES ! -->
+<div id="LandingPartners"><p class="mio-text bold small display title">Partenaires commerciaux</p><div class="partner-box"><div class="content"><div class="partners-list"><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.kid-avenue.com/"><img src="https://images.prismic.io/mangasio/67c1686f-cadb-4a09-8c3b-28cf24a2d1b3_logo-kid-avenue-min.png?auto=compress,format" width="100" height="auto" alt="Kid Avenue"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://figurhouse.com/"><img src="https://images.prismic.io/mangasio/5613622b-7f2e-4b65-9302-1448ca001e0f_logo-Figur-House-min.png?auto=compress,format" width="100" height="auto" alt="Figur'house"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.derivefigurine.com/fr/"><img src="https://images.prismic.io/mangasio/7999e4f7-452d-40bc-95df-d02ac73ef68e_logo-Derive-Figurine-min.png?auto=compress,format" width="100" height="auto" alt="Derive Figurine"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://ynnis-editions.fr/"><img src="https://images.prismic.io/mangasio/10160b89-de40-436f-82ac-410148ba541b_logo-YNNIS-editions-min.png?auto=compress,format" width="100" height="auto" alt="Ynnis Editions"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.asianmarket.fr/"><img src="https://images.prismic.io/mangasio/7cc72df4-e05c-45f1-9616-cd08a7bdadc5_logo-asian-market-min.png?auto=compress,format" width="100" height="auto" alt="Asian Market"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://pass.culture.fr/"><img src="https://images.prismic.io/mangasio/77780b95-2620-4a4b-8ed3-c44e6b180f16_logo-pass-culture.png?auto=compress,format" width="100" height="auto" alt="Pass Culture"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.ceipi.edu/"><img src="https://images.prismic.io/mangasio/222f556c-558f-4009-8a75-71087f08be59_Frame+492.png?auto=compress,format" width="100" height="auto" alt="CEIPI"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.eima.school/"><img src="https://images.prismic.io/mangasio/14e7964e-9743-4b93-9689-f32233c3b5a4_EIMA-logo.png?auto=compress,format" width="100" height="auto" alt="EIMA"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.mangabox.be/"><img src="https://images.prismic.io/mangasio/8ebb3b3c-4b88-4912-8b84-ec91031c1d82_LogoMangaBoxTopcut.png?auto=compress,format" width="100" height="auto" alt="MangaBox"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.sortiemanga.com/?locale=fr"><img src="https://images.prismic.io/mangasio/9bc8d8ec-857b-4818-8b16-3852a8da6e22_SortieMange_Couleur_FondSombre.png?auto=compress,format" width="100" height="auto" alt="SortieManga"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://nihonnosekai.fr/"><img src="https://images.prismic.io/mangasio/140a78a9-23fb-407f-b5eb-2ba46de9e417_logo2.1+%28wecompress.com%29.png?auto=compress,format" width="100" height="auto" alt="Nihon No Sekai"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://animotaku.fr/"><img src="https://images.prismic.io/mangasio/0bdac0c7-6735-49ef-931c-2eee7fcf5bc9_Logo+AnimOtaku.png?auto=compress,format" width="100" height="auto" alt="AnimOtaku"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lamaisonotaku/?hl=fr"><img src="https://images.prismic.io/mangasio/224f5fd8-e93a-470c-847d-4640b9ee8b45_Frame+1084.png?auto=compress,format" width="100" height="auto" alt="Maison Otaku"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.mangatori.fr/"><img src="https://images.prismic.io/mangasio/95bacef4-adea-433a-bb00-af917d095d50_logo-mangatori-transparent.png?auto=compress,format" width="100" height="auto" alt="Mangatori"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://zenmarket.jp/fr/signup.aspx"><img src="https://images.prismic.io/mangasio/3c340c91-f113-4f59-b67e-50123374c05e_zenmarket_logo-hor+%281%29+%281%29.png?auto=compress,format" width="100" height="auto" alt="ZenMarket"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://furansujapon.com/"><img src="https://images.prismic.io/mangasio/f2bc1cbd-9a79-4835-8685-9f942e3fba8f_furansujapon-logo-700x300-manga-blanc.png?auto=compress,format" width="100" height="auto" alt="Furansu"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.mangas.fr/"><img src="https://images.prismic.io/mangasio/c1d604ae-d58c-4edb-b3a4-eaba855aa947_MANGAS_LOGO%2BBL_RVB_VERTICAL_Couleur-Blanc.png?auto=compress,format" width="100" height="auto" alt="Chaîne Mangas"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://9e-store.fr/"><img src="https://images.prismic.io/mangasio/b49643de-9d44-47d4-a4dd-019ac65499b2_9EME+STORE+LOGO+noir.png?auto=compress,format" width="100" height="auto" alt="9ème Store"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.japanimebox.fr"><img src="https://images.prismic.io/mangasio/68e3b065-7ef0-4d43-98fb-7b295b580015_Japanime+Box+Logo+%282%29.png?auto=compress,format" width="100" height="auto" alt="Japanime Box"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://www.cafeyn.co/fr/newsstand/"><img src="https://images.prismic.io/mangasio/8165bf01-252f-4b18-bcbd-99807b9ec439_411c087d-be70-4029-998a-f7e78ca357e0.png?auto=compress,format" width="100" height="auto" alt="Cafeyn"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://centrenationaldulivre.fr/"><img src="https://images.prismic.io/mangasio/989b21bd-e239-42cb-9671-88f4e5d6e935_logo-cnl.png?auto=compress,format" width="100" height="auto" alt="CNL"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://bcorporation.eu/about-b-lab/country-partner/france"><img src="https://images.prismic.io/mangasio/e344c92f-a9c4-4f4e-98de-362e78acb9bd_B-Corp-blanc-min.png?auto=compress,format" width="100" height="auto" alt="B Corporation"></a></li><li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://en.thunder-stock.com/"><img src="https://images.prismic.io/mangasio/ZkX9Riol0Zci9NBA_Thunder_logo_couleur_horizontal_dark-theme_VF-3-.png?auto=format,compress" width="100" height="auto"></a></li></div></div></div></div>
+
+<!-- ICI C'EST LE FOOTER ! -->
+    <footer id="Footer" class="">
+        <p class="titre-footer">Des milliers de passionné.e.s font partie de notre communauté, et toi ? <a class="titre-footer" target="_blank"
+                rel="noreferrer noopener" href="https://discord.gg/T3FAWnw">rejoins-nous !</a></p>
+        <ul class="center social-links">
+            <li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://discord.gg/T3FAWnw"><img
+                        src="https://cdn.mangas.io/images/home/discord.svg" width="36" height="36" alt="discord"></a>
+            </li>
+            <li><a class="link-item" target="_blank" rel="noopener noreferrer"
+                    href="https://www.instagram.com/mangas.io"><img
+                        src="https://cdn.mangas.io/images/home/instagram.svg" width="36" height="36"
+                        alt="instagram"></a></li>
+            <li><a class="link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/io_mangas"><img
+                        src="https://cdn.mangas.io/images/home/twitter.svg" width="36" height="36" alt="twitter"></a>
+            </li>
+            <li><a class="link-item" target="_blank" rel="noopener noreferrer"
+                    href="https://www.tiktok.com/@mangas.io"><img src="https://cdn.mangas.io/images/home/tiktok.png"
+                        width="36" height="36" alt="tiktok"></a></li>
+        </ul>
+        <nav class="footer-menu">
+            <ul>
+                <li>
+                    <p class="title --text-secondary">Mangas.io</p>
+                    <ul>
+                        <li><a class="--text" href="/notre-service">Notre service</a></li>
+                        <li><a class="--text" href="/team">L'équipe</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text"
+                                href="https://www.notion.so/Mentions-L-gales-de-Mangas-io-3eb755ecc9174e749995c2e582ae12df">Mentions
+                                Légales</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text"
+                                href="https://www.notion.so/Politique-de-Protection-des-Donn-es-Caract-re-Personnel-de-Mangas-io-3ebd28535dd94df1bc2376d57fe0c111">Politique
+                                de protection des données</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text"
+                                href="https://www.notion.so/Conditions-G-n-rales-d-Utilisation-de-Mangas-io-bf445dbbcf514f218cbf31ac748c04e8">Conditions
+                                générales d'utilisation</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text"
+                                href="https://www.notion.so/mangas/Politique-de-Cookies-de-Mangas-io-7a226eee039f4dca811672ead7dc53bb">Politique
+                                de cookies</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="title --text-secondary">Catalogue</p>
+                    <ul>
+                        <li><a href="/manga-en-ligne" class="--text">Tous nos mangas</a></li>
+                        <li><a href="/manga-en-ligne/seinen" class="--text">Seinen</a></li>
+                        <li><a href="/manga-en-ligne/shonen" class="--text">Shōnen</a></li>
+                        <li><a href="/manga-en-ligne/shojo" class="--text">Shōjo</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="title --text-secondary">Liens utiles</p>
+                    <ul>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text"
+                                href="https://www.notion.so/Kit-presse-Mangas-io-0e77f8f3ae19446f84f2b783733aaf3b">Kit
+                                presse</a></li>
+                        <li><a class="--text" target="_blank" rel="noopener noreferrer"
+                                href="https://mangasio.upvoty.com/b/demande-de-fonctionnalite/">Proposer une
+                                fonctionnalité</a></li>
+                        <li><a class="--text" target="_blank" rel="noopener noreferrer"
+                                href="https://mangasio.upvoty.com/b/corrections-et-bugs/">Signaler un bug ou une
+                                correction</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text"
+                                href="https://cdn.mangas.io/livre-blanc.pdf">Livre blanc</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="title --text-secondary">Nous contacter</p>
+                    <ul>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text" href="/faq">FAQ / SAV</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text"
+                                href="mailto:jobs@mangas.io?subject=💌 Recrutements / Candidatures">Recrutements /
+                                Candidatures</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text"
+                                href="mailto:presse@mangas.io?subject=💌 Medias / Influenceurs">Medias /
+                                Influenceurs</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" class="--text"
+                                href="mailto:pro@mangas.io?subject=💌 Partenariats / Professionnels">Partenariats /
+                                Professionnels</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="download-content">
+                <div class="download-ctas">
+                    <div class="AppStore-buttons">
+                        <a class="storeButtonLink" href="https://play.google.com/store/apps/details?id=io.mangas.app"
+                            target="_blank" rel="noopener noreferrer"><button type="button"
+                                class="storeButton mio-button android"><img
+                                    src="https://cdn.mangas.io/landing/cta-google-play-min.svg" width="160" height="46"
+                                    alt="Télécharger sur Google Play Store"></button></a>
+                        <a class="storeButtonLink"
+                            href="https://apps.apple.com/fr/app/mangas-io-lecture-en-ligne/id1579236273" target="_blank"
+                            rel="noopener noreferrer"><button type="button" class="storeButton mio-button ios"><img
+                                    src="https://cdn.mangas.io/landing/cta-app-store-min.svg" width="160" height="46"
+                                    alt="Télécharger sur App Store"></button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="footer-version">
+            <p class="--text">Version 1.1.3 - Sukiyaki</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
