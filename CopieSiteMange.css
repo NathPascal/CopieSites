@@ -39,7 +39,6 @@ html {
   -webkit-text-size-adjust: 100%;
   line-height: 1.15;
 }
-
 .Navbar .center {
   align-items: center;
   display: flex;
@@ -59,6 +58,7 @@ html {
 .Navbar .nav-menu {
   align-items: center;
   display: flex;
+  flex-direction: row;
   flex: 1 1;
   margin-right: 10%;
 }
@@ -99,24 +99,26 @@ html {
 .Navbar .side.right > * {
   margin-left: 5px;
 }
-@media (min-width: 768px) {
-  .Navbar .icon {
-    height: 42px;
-    margin-left: 20px;
-    width: 42px;
-  }
-}
+
 @media (min-width: 576px) {
   .Navbar .icon {
     height: 42px;
     margin-left: 20px;
     width: 42px;
   }
+  .hero-image-mobile {
+    width: 824px;
+    height: 603px;
+  }
+
 }
 .Navbar .icon-search {
   cursor: pointer;
   position: relative;
   z-index: 4;
+  color: #fff;
+  height: 20px;
+  width: 20px;
 }
 .Navbar .icon {
   align-items: center;
@@ -144,7 +146,6 @@ html {
 }
 .mio-button .label {
   color: #f2f0f4;
-  background-color: #e41870;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
@@ -188,6 +189,49 @@ a {
   .Navbar .is-hidden-mobile {
     display: inline;
     display: initial;
+  }
+  .logo {
+    position: sticky;
+    top: 7px;
+    left: 0;
+    padding: 15px;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    z-index: 900;
+    user-select: none;
+  }
+  .navbar .logo {
+    fill: white;
+    display: none;
+    height: 1px;
+    margin-top: 5px;
+  }
+  .Navbar .item-gift-link .gift-label {
+    -webkit-text-fill-color: #0000;
+    background: linear-gradient(133.23deg,#ff78fa 17.96%,#fff06c 46.18%,#6cfff6 71.09%,#5fff78 97.66%);
+      background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6em;
+    margin-left: 8px;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .mio-button.gold.medium {
+    padding: 10px 15px;
+    background: linear-gradient(0deg, #ea6419, #ebb019 50%);
+    border-radius: 10px;
+    border: none;
+  }
+  .mio-button.gold.medium :hover{
+    background-color: #49444d;
+    border-radius: 0.4rem;
+    border: 2px solid white;
   }
 }
 .Navbar .is-hidden-mobile {
@@ -262,7 +306,6 @@ html {
       color: 0;
     }
   }
-  
 
   .publisher-header {
     .box-buttons {
