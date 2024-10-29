@@ -387,98 +387,98 @@ html {
     }
   }
 
-  .section-title {
-    span {color: grey;} 
-  }
+.section-title {
+  span {color: grey;} 
+}
+
+.partner-box{
+  display: flex;
+}
+
+.content {
+  align-items: center;
+}
+
+ul.partners-list{
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  left: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  height: 521px;
+  width: 1028px;
+  justify-content: space-between;
+  line-height: 18px;
+  padding: 0px;
   
-  .partner-box{
-    display: flex;
-  }
   
-  .content {
-    align-items: center;
-  }
-  
-  ul.partners-list{
-    align-items: center;
-    box-sizing: border-box;
-    position: relative;
-    left: 25vh;
-    display: flex;
-    flex-wrap: wrap;
-    height: 521px;
-    width: 1028px;
-    justify-content: space-between;
-    line-height: 18px;
-    padding: 0px;
-    
-    
-  }
-  
-  .mio-text.bold.medium.display{
-    color: white;
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-  }
-  
-  .mio-text.bold.medium.displaymio-text.bold.medium.display{
-  color: grey;
+}
+
+.mio-text.bold.medium.display{
+  color: white;
   text-align: center;
-  font-size: 18px;
-  }
-  
-  .elements{
-    box-sizing: border-box;
-    display:flex;
-    overflow-x: scroll;
-    scrollbar-width: none;
-  }
-  
-  .image-container{
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-image: transparent ;
-  }
-  
-  .controls.left.hidden{
-    display: flex;
-    left: 10px;
-    width: 40px;
-    position: absolute;
-    align-items: left;
-    background-color: rgb(255, 255, 255);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    box-shadow:rgba(0, 0, 0, 0.1) 2px 2px 5px 0px;
-    box-sizing: border-box;
-    cursor: pointer;
-   
-  }
-  
-  .controls.right{
-    display: flex;
-    right: 10px;
-    width: 40px;
-    position: absolute;
-  }
-  
-  .mio-button{
-    align-items: center;
-    appearance: button;
-    justify-content: center;
-    overflow-x: visible;
-    overflow-y: visible;
-  }
-  
-  .label{
-    box-sizing: border-box;
-  }
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.mio-text.bold.medium.displaymio-text.bold.medium.display{
+color: grey;
+text-align: center;
+font-size: 18px;
+}
+
+.elements{
+  box-sizing: border-box;
+  display:flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.image-container{
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-image: transparent ;
+}
+
+.controls.left.hidden{
+  display: flex;
+  left: 10px;
+  width: 40px;
+  position: absolute;
+  align-items: left;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow:rgba(0, 0, 0, 0.1) 2px 2px 5px 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+ 
+}
+
+.controls.right{
+  display: flex;
+  right: 10px;
+  width: 40px;
+  position: absolute;
+}
+
+.mio-button{
+  align-items: center;
+  appearance: button;
+  justify-content: center;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+.label{
+  box-sizing: border-box;
+}
 
 #Footer .footer-menu {
   margin: 68px auto;
