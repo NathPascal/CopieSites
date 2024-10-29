@@ -3,14 +3,14 @@
   src: url(\Fonts\Poppins-Black.ttf);
 }
 
-html {
-  -webkit-text-size-adjust: 100%;
-  line-height: 1.15;
-}
-
 *, ::after, ::before {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.15;
 }
 
 .App.dark-mode, body {
@@ -21,6 +21,18 @@ html {
   .Navbar {
     padding: 15px 60px;
   }
+}
+
+#LandingHero {
+  display: flex;
+  flex-direction: column;
+  margin-top: -60px;
+  min-height: 664px;
+  overflow: hidden;
+  padding-top: 60px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
 }
 
 .Navbar {
@@ -129,13 +141,72 @@ a {
   line-height: 44px;
   text-align: center;
 }
+
 .mio-text.display.bold {
   font-weight: 700;
+}
+
+#LandingPartners .title {
+  margin-bottom: 30px;
+  margin-top: 100px;
+  text-align: center;
+}
+.mio-text.display.small {
+  font-size: 22px;
+  letter-spacing: .25px;
+  line-height: 28px;
+}
+.mio-text.display.bold {
+  font-weight: 700;
+}
+.mio-text {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  padding: 0;
+}
+
+#LandingPartners .partners-list {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+#LandingPartners .link-item img {
+  height: auto;
+  max-width: 100%;
+}
+
+#LandingPartners .partners-list {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#LandingPartners .link-item {
+  align-items: center;
+  display: flex;
+  flex: 1 0 12%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  max-width: 100px;
+  min-height: 100px;
 }
 
 .mio-text.text.large {
   font-size: 18px;
   line-height: 32px;
+  text-align: center;
+  color: gray;
 }
 .titleHeader .subtitleText {
   color: #afafaf;
@@ -148,22 +219,113 @@ a {
 }
 /* ICI C'EST LES FONCTIONNALITEES */
 
-/* ICI C'EST LES ABONNEMENTS */
-.mio-text.display.medium {
-  font-size: 36px;
-  letter-spacing: .5px;
-  line-height: 44px;
-}
-.mio-text.display.bold {
-  font-weight: 700;
+#LandingFeatures {
+  margin: 0 auto 100px;
+  max-width: 1440px;
+  width: 100%;
+  z-index: 1;
 }
 
-.mio-text.text.large {
-  font-size: 18px;
-  line-height: 32px;
+#LandingFeatures .big-card, #LandingFeatures .big-card.type-1 {
+  background: linear-gradient(93.56deg,#c52002 -11.02%,#98039b 118.24%);
 }
+#LandingFeatures .big-card {
+  border-radius: 40px;
+  margin: 48px 24px;
+  overflow: hidden;
+  padding: 0 80px;
+}
+
+#LandingFeatures .big-card .big-card-content {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.125rem;
+  justify-content: space-between;
+  line-height: 1.5em;
+  margin: 0 auto;
+  max-width: 1140px;
+  min-height: 532px;
+  padding: 85px 0;
+  width: 100%;
+}
+
+#LandingFeatures .big-card .content {
+  padding-top: 30px;
+  text-align: left;
+  width: 44%;
+}
+
+#LandingFeatures .big-card .big-card-content .title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-bottom: 15px;
+}
+
+#LandingFeatures .big-card .big-card-content p {
+  color: #fff;
+}
+
+#LandingFeatures .big-card .custom-illu-preview {
+  margin-left: -20px;
+  margin-right: -80px;
+  margin-top: -80px;
+  width: 57%;
+}
+#LandingFeatures .big-card .illu {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 57%;
+}
+
+#LandingFeatures .big-card .illu img {
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+#LandingFeatures .big-card.reverse .big-card-content {
+  flex-direction: row-reverse;
+}
+
+#LandingFeatures .big-card.type-2 {
+  background: linear-gradient(270deg,#9420c6 1.84%,#2088c9);
+}
+
+#LandingFeatures .big-card.type-3 {
+  background: linear-gradient(261deg,#ffc138 1.68%,#ff2525 97.67%);
+}
+
+#LandingFeatures .big-card .illu img {
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+#LandingFeatures .big-card .illu-mobile {
+  display: none;
+}
+/* ICI C'EST LES ABONNEMENTS */
+#LandingPage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.titleHeader {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
 .titleHeader .subtitleText {
-  color: #8b8a8a;
+  color: #afafaf;
 }
 
 .subscription {
@@ -177,6 +339,10 @@ a {
   display: flex;
   flex-direction: row;
   position: relative;
+}
+
+.titleHeader .subtitleText {
+  color: #8b8a8a;
 }
 
 .subscription .panel {
@@ -268,23 +434,53 @@ a {
 #PricingCardNew .bottomCard {
   width: 100%;
 }
-.subscription .panel .bottomCard, .subscription .panel .mainCard {
-  text-align: center;
-}
 
 #PricingCardNew.passCulture .subtitle {
   color: #fff;
   font-size: .875rem;
   line-height: 1.7em;
 }
+
 #PricingCardNew .card-content .subtitle {
-  color: #ffffffb3;
+  color: #fff;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5em;
   margin-block-end: 0;
   margin-block-start: 0;
   margin-bottom: 7px;
+}
+
+#PricingCardNew .chip.hidden {
+  background-color: #0000;
+}
+
+#PricingCardNew .price {
+  color: #fff;
+  font-size: 2.4375rem;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin: 3px 0 0;
+  white-space: nowrap;
+}
+
+#PricingCardNew.yearly .chip {
+  color: #154ee2;
+}
+#PricingCardNew .chip {
+  background-color: #fff;
+  border-radius: 13px;
+  font-size: .8rem;
+  font-weight: 600;
+  padding: 2px 11px;
+}
+
+#PricingCardNew .price small {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5em;
+  text-transform: uppercase;
 }
 
 #PricingCardNew .button {
@@ -311,6 +507,28 @@ a {
   width: 100%;
 }
 
+.box-notice {
+  align-items: flex-start;
+  -webkit-backdrop-filter: blur(26px);
+  backdrop-filter: blur(26px);
+  background: #ffb72a26;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-flex;
+  font-size: .875rem;
+  line-height: 1.75em;
+  margin: 10px auto 20px;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.box-notice .icon {
+  margin-right: 15px;
+  margin-top: 0;
+}
+
 /* ICI C'EST LES CARTES */
 #LandingCards .CardsComponent {
   justify-content: center;
@@ -329,19 +547,6 @@ a {
   text-align: center;
   width: 100%;
   z-index: 0;
-}
-
-#LandingPage .content-wrapper {
-  text-align: center;
-}
-
-.mio-text.display.medium {
-  font-size: 36px;
-  letter-spacing: .5px;
-  line-height: 44px;
-}
-.mio-text.display.bold {
-  font-weight: 700;
 }
 
 .mio-carrousel {
@@ -526,9 +731,7 @@ button, input, optgroup, select, textarea {
   font-size: 14px;
   line-height: 24px;
 }
-.mio-text.display.bold {
-  font-weight: 700;
-}
+
 
 
 #LandingCards .CardsComponent .tag {
@@ -745,9 +948,9 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     .subtitleText {
-      color: 0;
-    }
+    color: 0;
   }
+}
   
 
   .publisher-header {
@@ -792,7 +995,150 @@ a {
         }
       }
     }
-  
+  /* CECI EST LA PARTI COFFEE */
+    #LandingSupportCoffee {
+      margin-top: 100px;
+      max-width: 1440px;
+      width: 100%;
+    }
+
+    #LandingSupportCoffee .big-card {
+      background: linear-gradient(90deg,#273483,#800c57);
+      border-radius: 40px;
+      margin: 48px 24px;
+      overflow: hidden;
+      padding: 0 80px;
+    }
+
+    #LandingSupportCoffee .big-card .big-card-content {
+      color: #fff;
+      display: flex;
+      flex-direction: row;
+      font-size: 1.125rem;
+      justify-content: space-around;
+      line-height: 1.5em;
+      margin: 0 auto;
+      max-width: 1140px;
+      min-height: 532px;
+      padding: 85px 0 70px;
+      width: 100%;
+    }
+
+    #LandingSupportCoffee .big-card .illu-mobile {
+      display: none;
+    }
+
+    #LandingSupportCoffee .big-card .content {
+      text-align: left;
+      width: 48.5%;
+    }
+
+    #LandingSupportCoffee .big-card .big-card-content .title {
+      font-size: 2.25rem;
+      font-weight: 700;
+      line-height: 1.2em;
+      margin-bottom: 35px;
+    }
+
+
+    #LandingSupportCoffee .big-card .big-card-content p {
+      color: #fff;
+    }
+
+    #LandingSupportCoffee .buttons-container {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    a {
+      background-color: initial;
+    }
+
+    .mio-button.large {
+      padding: 15px 25px;
+    }
+    .mio-button.gold {
+      background: #ea6419;
+      background: linear-gradient(0deg,#ea6419,#ebb019 50%);
+    }
+    .mio-button:not(.disabled) {
+      cursor: pointer;
+    }
+
+    .mio-button svg {
+      color: #fff;
+      margin-right: 15px;
+    }
+
+    .mio-button.small {
+      padding: 5px 15px;
+    }
+    .mio-button.text {
+      background: #0000;
+      box-shadow: none;
+    }
+    .mio-button:not(.disabled) {
+      cursor: pointer;
+    }
+    
+    .mio-button {
+      align-items: center;
+      border: none;
+      border-radius: 8px;
+      box-shadow: inset 0 0 0 1px #ffffff26;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      transition: box-shadow .2s ease;
+    }
+    button, select {
+      text-transform: none;
+    }
+    button, input {
+      overflow: visible;
+    }
+    button, input, optgroup, select, textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    #LandingSupportCoffee .big-card .AppStore-buttons {
+      display: flex;
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+    .AppStore-buttons {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    #LandingSupportCoffee .big-card .AppStore-buttons .storeButtonLink:not(:last-child) {
+      margin-right: 10px;
+    }
+    .AppStore-buttons .storeButtonLink:not(:last-child) {
+      margin-right: 10px;
+    }
+    .AppStore-buttons .storeButtonLink {
+      margin-top: 15px;
+    }
+
+    .storeButton img {
+      height: 46px;
+      width: auto;
+    }
+
+    .illu-mobile{
+      display: none;
+    }
+  /* CECI EST LA PARTI PARTENAIRES */
     .bottom-header {
       width: 100%;
       border-radius: 0px 0px 8px 8px;
